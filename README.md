@@ -11,6 +11,7 @@ to write meta for the struct `ctd_t`, which is
 ```c
 int ctd_read(char *filename, struct ctd_t *data);
 int ctd_write(char *filename, struct ctd_t *data);
+int ctd_meta(struct ctd_t *data);
 ```
 
 ## Compilation Steps
